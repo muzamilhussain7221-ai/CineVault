@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Vault Ring Shield -->
+    <path
+        android:pathData="M54,26 C69.46,26 82,38.54 82,54 C82,69.46 69.46,82 54,82 C38.54,82 26,69.46 26,54 C26,38.54 38.54,26 54,26 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#8B5CF6"
+        android:fillColor="#00000000" />
+
+    <!-- Secondary Cyan Accent Ring with Dash Gaps -->
+    <path
+        android:pathData="M54,32 C66.15,32 76,41.85 76,54 C76,66.15 66.15,76 54,76 C41.85,76 32,41.85 32,54 C32,41.85 41.85,32 54,32 Z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#06B6D4"
+        android:fillColor="#00000000" />
+
+    <!-- Cinematic Vault Aperture Fins -->
+    <path
+        android:pathData="M54,33 L54,42 M54,66 L54,75 M33,54 L42,54 M66,54 L75,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#A78BFA"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M39.15,39.15 L45.5,45.5 M62.5,62.5 L68.85,68.85 M39.15,68.85 L45.5,62.5 M62.5,45.5 L68.85,39.15"
+        android:strokeWidth="2"
+        android:strokeColor="#22D3EE"
+        android:strokeLineCap="round" />
+
+    <!-- Center Glowing Cinema Play / Vault Prism -->
+    <path
+        android:pathData="M48,43 L65,54 L48,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="43"
+                android:endX="65"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#FF8B5CF6" android:offset="0.0" />
+                <item android:color="#FF06B6D4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Play Inner Highlight -->
+    <path
+        android:pathData="M50,47 L60,54 L50,61 Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>
